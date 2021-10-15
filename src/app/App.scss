@@ -1,0 +1,18 @@
+@import "vars";
+
+.app {
+  .page {
+    min-height: 100vh;
+    background-color: var(--background-admin);
+  }
+}
+
+.medium {
+  font-family: "RobotoMedium";
+}
+.regular {
+  font-family: "RobotoRegular";
+}
+.helvetica {
+  font-family: "HelveticaRegular";
+}
