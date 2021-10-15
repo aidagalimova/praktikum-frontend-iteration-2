@@ -1,0 +1,16 @@
+.page {
+    text-align: -webkit-center;
+    .title-div {
+        padding-top: 20vh;
+        margin-bottom: 16px;
+        .logo {
+            display: inline-block;
+            margin-bottom: -12px;
+        }
+        .title {
+            display: inline-block;
+            color: #3d5170;
+            margin-left: 8px;
+        }
+    }
+}
