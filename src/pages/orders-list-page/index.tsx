@@ -3,6 +3,7 @@ import { Layout } from 'antd';
 import SiderContent from '../../components/sider';
 import './index.scss';
 import HeaderContent from '../../components/header';
+import FooterContent from '../../components/footer';
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -13,7 +14,7 @@ function OrdersPage() {
             <Layout>
                 <Header className="header"><HeaderContent /></Header>
                 <Content>Content</Content>
-                <Footer>Footer</Footer>
+                <Footer className="footer"><FooterContent /></Footer>
             </Layout>
         </Layout>
     )
