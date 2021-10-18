@@ -1,0 +1,41 @@
+.sider-content {
+    .title-div {
+        text-align-last: center;
+        height: 60px;
+        .logo {
+            display: inline-block;
+            margin-bottom: -12px;
+            width: 20px;
+        }
+        .title {
+            display: inline-block;
+            color: #3d5170;
+            margin-left: 4px;
+            font-size: 16px;
+        }
+    }
+    .menu-item {
+        height: 57px;
+        border-top: 1px solid #979797;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        padding-top: 8px;
+        font-size: 15px;
+        &-logo {
+            margin-right: 8px;
+            fill: #CACEDB;
+        }
+    }
+    .last {
+        border-bottom: 1px solid #979797;
+    }
+}
+
+.ant-menu-item-selected {
+    background-color: white !important;
+    border-left: 5px solid #007BFF !important;
+    .ant-menu-title-content .menu-item-logo {
+        fill: #007BFF !important;
+        margin-left: -5px;
+    }
+}

@@ -1,0 +1,46 @@
+.select {
+    height: 59px;
+    padding-top: 16px;
+    padding-left: 24px;
+    border-bottom: 1px solid #becad6;
+    &-item {
+        margin-right: 16px;
+    }
+    &-btn {
+        background-color: #007bff;
+        border-radius: 4px;
+        padding-top: 8px;
+        position: fixed;
+        right: 56px;
+        &-text {
+            color: white;
+            font-size: 11px;
+        }
+    }
+}
+
+.ant-select-selection-item {
+    font-family: "HelveticaRegular";
+    font-size: 11px;
+    color: #868e96;
+}
+.ant-select-selector {
+    height: 29px;
+    border-radius: 4px !important;
+}
+
+@media (max-width: 842px) {
+    .select {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding-right: 120px;
+        height: 120px;
+    }
+}
+@media (max-width: 622px) {
+    .select {
+        height: 180px;
+    }
+}

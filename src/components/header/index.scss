@@ -1,0 +1,77 @@
+.header-content {
+    height: 68px;
+    .search {
+        display: inline-block;
+        &-input {
+            margin-left: -32px;
+            color: #767F9D;
+            ::-webkit-input-placeholder {
+                font-family: "HelveticaRegular";
+                color: #767F9D;
+                font-size: 13px;
+            }
+            :-ms-input-placeholder {
+                font-family: "HelveticaRegular";
+                color: #767F9D;
+                font-size: 13px;
+            }
+            ::-moz-placeholder {
+                font-family: "HelveticaRegular";
+                color: #767F9D;
+                font-size: 13px;
+                opacity: 1;
+            }
+            :-moz-placeholder {
+                font-family: "HelveticaRegular";
+                color: #767F9D;
+                font-size: 13px;
+                opacity: 1;
+            }
+        }
+    }
+    .notifications {
+        width: 70px;
+        display: inline-block;
+        position: fixed;
+        right: 218px;
+        border-left: 1px solid #CACEDB;
+        border-right: 1px solid #CACEDB;
+        text-align: -webkit-center;
+        &-count {
+            width: 14px;
+            height: 14px;
+            background-color: #C4183C;
+            border-radius: 50%;
+            position: fixed;
+            top: 29px;
+            margin-left: 37px;
+            &-text {
+                margin-top: -26px;
+                color: white;
+                font-size: 9px;
+            }
+        }
+    }
+    .admin {
+        display: inline-block;
+        position: fixed;
+        right: 0;
+        &-img {
+            display: inline-block;
+        }
+        &-text {
+            display: inline-block;
+            margin-left: 16px;
+            font-size: 15px;
+            color: #5A6169;
+        }
+        &-icon {
+            display: inline-block;
+            margin-left: 48px;
+            margin-right: 32px;
+        }
+    }
+}
+.ant-input-prefix {
+    margin-right: 8px;
+}
