@@ -11,9 +11,24 @@
     .footer {
         background: #FFFFFF;
     }
+    .content {
+        padding: 32px;
+        .title-text {
+            font-size: 29px;
+            color: #3D5170;
+        }
+    }
 }
 .ant-layout-sider {
     width: 285px !important;
     max-width: none !important;
     min-width: 285px !important;
+}
+
+@media(max-width: 1385px){
+    .ant-layout-sider {
+        width: 210px !important;
+        max-width: none !important;
+        min-width: 210px !important;
+    } 
 }
